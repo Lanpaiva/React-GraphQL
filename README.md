@@ -18,7 +18,7 @@ pelo backend em Go.
 
 **1 -** Edite o arquivo `src/index.js` e verifique se a URL da API GraphQL
 está correta: `const client = new ApolloClient({
-  uri: 'http://localhost:8080/query', // Verifique a URL correta da API GraphQL
+  url: 'http://localhost:8080/query', // Verifique a URL correta da API GraphQL
   cache: new InMemoryCache(),
 });`
 
